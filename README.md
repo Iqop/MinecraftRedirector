@@ -1,7 +1,7 @@
-#Minecraft Redirector
+# Minecraft Redirector
 Deploy server using a public node as the middle man.
 
-###Why?
+### Why?
 You might say that there are easier solutions like making port-forward on the router or something like that.
 But in my case it would not work because the computer hosting the server is over a network that I cannot manage.
 
@@ -14,7 +14,7 @@ This solution enables that low powered devices (like a OrangePI Zero that only h
 **Portforward is still needed if the public node is over a local home network**, the public node must be in a network that you can manage or hosted
 in a external system with a public IP attributed
 
-###How it works?
+### How it works?
 Its pretty easy and intuitive, you have a client that connects to the public node, the public node redirects the request to the machine hosting the Minecraft server and that's it, a client can connect to the minecraft server from anywhere.
 
 ![structure](.README_images/Structure.png)
